@@ -1,0 +1,80 @@
+<!DOCTYPE html> <!--Indica al explorador que el documento es HTML5-->
+<html lang="en"> <!-- HTML es la etiqueta principal que engloba al resto de las etiquetas, el atributo lang define el tipo de lenguaje-->
+<head> <!-- Es la cabeza del documento que contiene los metadatos de la pagina web-->
+    <meta charset="UTF-8"> <!-- Indica al navegador que tipo de caracteres contiene la pagina "UTF-8" es un tipo de codificacion que tiene la gran mayoria de caracteres en la gran mayoria de idiomas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- Muestra el titulo de la pagina, aparece en la solapa del navegador-->
+</head>
+<body> <!-- Es el cuerpo del documento donde va a estar todo el contenido que queremos mostrar-->
+    <h1>Hola Mundo! (Esto es un H1)</h1><!-- Etiqueta de Heading sirve para crear títulos-->
+    <h2>Títulos</h2>
+    <h2>Esto es un h2</h2> <!-- Etiqueta de Heading sirve para crear títulos-->
+    <h3>Esto es un h3</h3> <!-- Etiqueta de Heading sirve para crear títulos-->
+    <h4>Esto es un h4</h4> <!-- Etiqueta de Heading sirve para crear títulos-->
+    <h5>Esto es un h5</h5> <!-- Etiqueta de Heading sirve para crear títulos-->
+    <h6>Esto es un h6</h6> <!-- Etiqueta de Heading sirve para crear títulos-->
+    <hr>
+    <h2>Párrafos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Esse, cupiditate.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+        Esse, cupiditate.</p>
+    
+    <p title="Este parrafo contiene una etiqueta span">Lorem ipsum dolor <span style="color: aqua;">sit amet consectetur</span> adipisicing elit. Repudiandae, quas.</p> <!-- span sirve para referenciar texto o parte de él -->
+
+    <hr> <!-- Agrega una línea horizontal con un salto de linea-->
+    <h2>Vínculos</h2>
+
+    <a href="www.google.com">Ir a Google (este vínculo no funciona)</a><br><br> <!-- Anchor sirve para navegar a otras paginas o navegar dentro de nuestra propia página. -->
+    <a href="https://www.google.com" target="_blank">Ir a Google</a><br></br>
+<a href="mailto:direccion1@mail.com; direccion2@mail.com">Enviar correo a dos direcciones</a><br><br> <!-- Mailto puede contener una o mas direcciones de correo de destinatario. -->
+
+<a href="mailto:direccion1@mail.com?cc=direccionCC@mail.com&bcc=direccionBCC@mail.com&subject=Asunto&body=Cuerpo">Enviar mail completo</a> <!-- También se puede asigar como valor destinatario, cc y bcc. Además de indicar Subjet y Body. -->
+
+<hr>
+
+<h2>Imágenes</h2>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png" alt="Logo HTML" title="Imagen instertada desde internet"><br></br> <!-- La etiqueta img se utiliza para mostrar imagenes, en el caso anterior la ruta está mal escrita, y esa es la razón por la que no se ve-->
+
+<figure> <!-- Permite almacenar una imagen en su interior.-->
+    <img src="./img/logo_html.png" alt="Logo HTML">
+<figcaption>Logo HTML insertado localmente</figcaption>
+</figure>
+
+<a href="https://code.visualstudio.com" target="_blank"><img src="./img/logo_vsc.png" alt="Logo VSC" width="150"></a>
+
+<hr>
+<h2>Listas</h2>
+<h3>Listas desordenadas</h3>
+<ul> <!--ul sirve para crear listas desordenadas-->
+    <li>Listas</li> <!--Cada item de la lista debe ir envuelto en la etiqueta li-->
+    <li>Tablas</li>
+    <li>Iframes</li>
+</ul><br><br>
+
+<h3>Listas ordenadas</h3>
+
+<ol> <!--ol sirve para crear listas ordenadas-->
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol><br><br>
+
+<h3>Listas de definicion</h3>
+
+<dl> <!--dl sirve para hacer una lista de definicion-->
+    <dt>Perro</dt> <!--dt representa cada termino de la lista-->
+    <dd>Ladra</dd> <!--dd representan las definiciones de cada termino-->
+    <dd>Tiene patas</dd>
+    <dd>Consume alimento</dd>
+    <dt>Auto</dt>
+    <dd>Tiene ruedas</dd>
+    <dd>Consume combustible</dd>
+</dl><br><br>
+
+<hr>
+<h2>Tablas</h2> <!-- Table se utiliza para armar una tabla-->
+
+</body>
+</html>
